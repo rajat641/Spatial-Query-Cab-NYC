@@ -12,7 +12,19 @@ Database takes up 391 GB on disk with minimal indexes
 #### Spatial Query 
 A spatial query is a special type of query supported by geodatabases and spatial databases. The queries differ from traditional SQL queries in that they allow for the use of points, lines, and polygons. The spatial queries also consider the relationship between these geometries. 
 
+#### Why to use Apache Spark
+The database is large and mostly unstructured, So ist better to use SparkSQL. The goal of the project is to extract data from this database that can be used for operational (day-to-day) and strategic level (long term) decisions.
 
+### What Spatial Queries are used
+#### Assumption
+A rectangle R represents a geographical boundary in a town or city, and a set of points P represents customers who request taxi cab service using your client firm’s app.
+1. . Range query: Given a query rectangle R and a set of points P, find all the points within R. You need to use the ‘ST_Contains’ function in this query.
+
+2. Range join query: Given a set of rectangles R and a set of points P, find all (point, rectangle) pairs such that the point is within the rectangle.
+
+3. Distance query: Given a fixed point location P and distance D (in kilometers), find all points that lie within a distance D from P. You need to use the ‘ST_Within’ function in this query.
+
+4. Distance join query: Given two sets of points P1 and P2, and a distance D (in kilometers), find all (p1, p2) pairs such that p1 is within a distance D from p2 (i.e., p1 belongs to P1 and p2 belongs to P2). You need to use the ‘ST_Within’ function in this query.
 
 
 ## Installation
