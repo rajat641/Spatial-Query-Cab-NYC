@@ -1,5 +1,5 @@
 # Spatial Query on NYC Cab Data
-This repo provides scripts to run multiple spatial queries on the large database that contains geographic data as well as real-time location data of the customer for-hire vehicle (Uber, Lyft, etc.).Most of the raw data comes from the NYC Taxi & Limousine Commission from 2009.
+This repo provides scripts to run multiple spatial queries on the large database that contains geographic data as well as real-time location data of the customer for-hire vehicle Companies(Uber, Lyft, etc.).Most of the raw data comes from the NYC Taxi & Limousine Commission from 2009.
 
 #### Statistics through December 31, 2019:
 
@@ -26,8 +26,13 @@ A rectangle R represents a geographical boundary in a town or city, and a set of
 
 4. Distance join query: Given two sets of points P1 and P2, and a distance D (in kilometers), find all (p1, p2) pairs such that p1 is within a distance D from p2 (i.e., p1 belongs to P1 and p2 belongs to P2). You need to use the ‘ST_Within’ function in this query.
 
+### Requirement
+1. Scala Version: 2.11.12
+2. JDK Versio: 11 (To know more on this, you can refer https://docs.scala-lang.org/overviews/jdk-compatibility/overview.html)
 
-## Installation
+
+
+### Installation
 
 1. Use IntelliJ Idea with Scala plug-in or any other Scala IDE.
 2. Replace the logic of User Defined Functions ST\_Contains and ST\_Within in SparkSQLExample.scala.
