@@ -1,5 +1,5 @@
 # Spatial Query on NYC Cab Data
-This repo provides scripts to run multiple spatial queries on their large database that contains geographic data as well as real-time location data of the customer for-hire vehicle (Uber, Lyft, etc.).Most of the raw data comes from the NYC Taxi & Limousine Commission from 2009.
+This repo provides scripts to run multiple spatial queries on the large database that contains geographic data as well as real-time location data of the customer for-hire vehicle (Uber, Lyft, etc.).Most of the raw data comes from the NYC Taxi & Limousine Commission from 2009.
 
 #### Statistics through December 31, 2019:
 
@@ -8,6 +8,9 @@ This repo provides scripts to run multiple spatial queries on their large databa
 3. 935 million for-hire vehicle
 4. 291 GB of raw data
 Database takes up 391 GB on disk with minimal indexes
+
+#### Spatial Query 
+A spatial query is a special type of query supported by geodatabases and spatial databases. The queries differ from traditional SQL queries in that they allow for the use of points, lines, and polygons. The spatial queries also consider the relationship between these geometries. 
 
 
 
