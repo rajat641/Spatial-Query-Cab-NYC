@@ -11,6 +11,8 @@ Database takes up 391 GB on disk with minimal indexes
 
 #### Spatial Query 
 A spatial query is a special type of query supported by geodatabases and spatial databases. The queries differ from traditional SQL queries in that they allow for the use of points, lines, and polygons. The spatial queries also consider the relationship between these geometries. 
+![Spark](https://user-images.githubusercontent.com/8374949/82256831-e0987800-990b-11ea-9017-07aeb3587fda.png)
+
 
 #### Why to use Apache Spark
 The database is large and mostly unstructured, So ist better to use SparkSQL. The goal of the project is to extract data from this database that can be used for operational (day-to-day) and strategic level (long term) decisions.
