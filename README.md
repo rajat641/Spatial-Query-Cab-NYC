@@ -29,7 +29,7 @@ A rectangle R represents a geographical boundary in a town or city, and a set of
 ### Requirements
 1. Scala Version: 2.11.12
 2. JDK Version: 11 (To know more on this, you can refer https://docs.scala-lang.org/overviews/jdk-compatibility/overview.html)
-3. Apache Spark and Apache SQL.(A detailed guide of its installation is available)[here]( https://spark.apache.org/docs/latest/ ).
+3. Apache Spark and Apache SQL.(A detailed guide of its installation is https://spark.apache.org/docs/latest/ ).
 
 
 
