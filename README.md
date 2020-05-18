@@ -25,8 +25,4 @@ If you are using the Scala template, note that:
 3. In some cases, you may need to go to "build.sbt" file and change ```% "provided"``` to ```% "compile"``` in order to debug your code in IDE
 4. Run your code in IDE
 5. If you want to run the project jar file on a  Spark Cluster use command "./bin/spark-submit <jar file name>".
-
-### How to create jar file
-1. Go to project root folder
-2. Run ```sbt assembly```. You may need to install sbt in order to run this command.
-3. Find the packaged jar in "./target/scala-2.11/CSE512-Project-Phase2-Template-assembly-0.1.0.jar"
+To know more on this, refer this (link)[https://spark.apache.org/docs/latest/spark-standalone.html]
