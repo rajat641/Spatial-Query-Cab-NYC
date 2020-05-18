@@ -26,9 +26,10 @@ A rectangle R represents a geographical boundary in a town or city, and a set of
 
 4. Distance join query: Given two sets of points P1 and P2, and a distance D (in kilometers), find all (p1, p2) pairs such that p1 is within a distance D from p2 (i.e., p1 belongs to P1 and p2 belongs to P2). You need to use the ‘ST_Within’ function in this query.
 
-### Requirement
+### Requirements
 1. Scala Version: 2.11.12
-2. JDK Versio: 11 (To know more on this, you can refer https://docs.scala-lang.org/overviews/jdk-compatibility/overview.html)
+2. JDK Version: 11 (To know more on this, you can refer https://docs.scala-lang.org/overviews/jdk-compatibility/overview.html)
+3. Apache Spark and Apache SQL.(A detailed guide of its installation is available)[here]( https://spark.apache.org/docs/latest/ ).
 
 
 
@@ -40,4 +41,4 @@ A rectangle R represents a geographical boundary in a town or city, and a set of
 3. In some cases, you may need to go to "build.sbt" file and change ```% "provided"``` to ```% "compile"``` in order to debug your code in IDE
 4. Run your code in IDE
 5. If you want to run the project jar file on a  Spark Cluster use command "./bin/spark-submit <jar file name>".
-To know more on this, refer this - [Link]( https://spark.apache.org/docs/latest/spark-standalone.html ) .
+To know more on this, refer this-[Link]( https://spark.apache.org/docs/latest/spark-standalone.html ) .
